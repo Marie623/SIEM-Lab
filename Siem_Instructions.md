@@ -37,7 +37,9 @@ Next we'll generate commands
    ![logs](https://github.com/user-attachments/assets/02f3029d-8030-4abd-be2b-56956f921963)
 
 7.  type "process.args: nmap" in search bar
+   
    ![custom query -nmap](https://github.com/user-attachments/assets/9c306bb5-d9a4-4109-a4b7-6f3d3ae5a062)
+
 8.  click on one of the results to expand it and click on table and scroll and click through it to see date, time, user, ip and the command that was ran
   ![search args](https://github.com/user-attachments/assets/f46edbb4-2cff-4daa-aecc-847ca8d4db14)
   ![nmap proof](https://github.com/user-attachments/assets/0b01205c-f9ca-43e9-92f1-5c3f421926b3)
@@ -60,11 +62,12 @@ Let's Create an alert
 3.   Select "Custom query"
 4.   Beside custom query, type "event.action; nmap_scan"
    ![custom query](https://github.com/user-attachments/assets/6f74db4e-a992-4ab3-88cf-da6bfc45eaef)
-5. 
-6.   Click "continue"
-7.   In "about rule", give it a name and a description of the alert and click continue until you get to "Rule Actions"
-8.   I selected "Email"
-  ![email action](https://github.com/user-attachments/assets/57b2cc57-2eeb-429b-bab6-320131cc4330)
+   
+5.   Click "continue"
+6.   In "about rule", give it a name and a description of the alert and click continue until you get to "Rule Actions"
+7.   I selected "Email"
+   
+ ![email action](https://github.com/user-attachments/assets/57b2cc57-2eeb-429b-bab6-320131cc4330)
 
 1.   Under "if alert match a query", type "process.args: nmap"
 2.   Add your email in the "To" section. Add Subject
