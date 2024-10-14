@@ -34,6 +34,7 @@ Next we'll generate commands
   ![nmap](https://github.com/user-attachments/assets/3f3d2218-3035-47b3-9243-2bc0ec28026f)
 
 6.  Go to the hamburger menu, observability, logs
+   
    ![logs](https://github.com/user-attachments/assets/02f3029d-8030-4abd-be2b-56956f921963)
 
 7.  type "process.args: nmap" in search bar
