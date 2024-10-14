@@ -31,7 +31,7 @@ Next we'll generate commands
 3.  type other commands such as
 4.  nmap -sS <inet_ip>
 5.  nmap -sU <inet_ip>
-  ![nmap](https://github.com/user-attachments/assets/e5e0f7b6-2b1e-4ea8-af52-9cdd8ac0e38b)
+  ![nmap](https://github.com/user-attachments/assets/3f3d2218-3035-47b3-9243-2bc0ec28026f)
 
 6.  Go to the hamburger menu, observability, logs
    ![logs](https://github.com/user-attachments/assets/02f3029d-8030-4abd-be2b-56956f921963)
